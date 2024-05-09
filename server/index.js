@@ -16,6 +16,7 @@ app.use('/api/auth', authRoutes)
 
 app.use(errorHandler)
 
+
 app.listen(3000 , ()=>{
     console.log("Server is listening on port 3000");
 })
